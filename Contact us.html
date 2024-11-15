@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <header>
+        <h2>Contact Us</h2>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="Contact us.html">Contact Us</a>
+        <a href="login.html">Login</a>
+        <a href="Sign Up.html">Sign Up</a>
+    </nav>
+
+    <div class="container">
+        <section>
+            <form id="contactForm" onsubmit="submitForm(event)">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" rows="4" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            <p id="contactResponse"></p>
+        </section>
+    </div>
+    <Footer>
+        <p><h4>Email: Info@epichotwheels.com</h4></p>
+            <p><h4>Telephone Number:+250 788 465 970</h4></p>
+        <p><h4>&copy; 2024 Epic Hot Wheels All Rights Reserved</h4></p>
+    </Footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
